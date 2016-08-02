@@ -48,7 +48,7 @@ public class LoginPage extends AppCompatActivity {
                 if(uname.equals("") || password.equals("") ) {
                     Toast.makeText(getApplicationContext(),"Invalid",Toast.LENGTH_SHORT).show();
                 }
-                else if(uname.equals())
+                
 
                 else{
                     Toast.makeText(getApplicationContext(),"Invalid username or password",Toast.LENGTH_SHORT).show();
