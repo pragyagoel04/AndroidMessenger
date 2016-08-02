@@ -10,14 +10,29 @@
     tools:context=".SuccessPage">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="377dp"
+        android:layout_height="567dp"
         android:layout_gravity="center"
         android:src="@drawable/success"/>
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="288dp"
         android:layout_gravity="right|center_vertical"></GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome,"
+        android:id="@+id/textView"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewUsername"
+        android:layout_gravity="center_horizontal|top" />
 
 </FrameLayout>

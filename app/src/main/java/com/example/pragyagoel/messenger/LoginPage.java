@@ -19,10 +19,15 @@ public class LoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginpage);
+
+        //instantiate widgets
         SignUp=(Button)findViewById(R.id.SignUp);
         LoginBtn=(Button)findViewById(R.id.LogInBtn);
         username=(EditText)findViewById(R.id.userid);
         psw=(EditText)findViewById(R.id.psw);
+
+
+
         SignUp.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -36,13 +41,22 @@ public class LoginPage extends AppCompatActivity {
         LoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String uname=username.getText().toString();
+                String password=psw.getText().toString();
 
-                if(username.getText().toString().equals("") || psw.getText().toString().equals("") ) {
+
+                if(uname.equals("") || password.equals("") ) {
                     Toast.makeText(getApplicationContext(),"Invalid",Toast.LENGTH_SHORT).show();
-                }else{
-                    Intent a = new Intent(LoginPage.this, SuccessPage.class);
-                    startActivity(a);
                 }
+                else if(uname.equals())
+
+                else{
+                    Toast.makeText(getApplicationContext(),"Invalid username or password",Toast.LENGTH_SHORT).show();
+
+                }
+
+
+
 
             }
         });

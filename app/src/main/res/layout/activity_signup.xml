@@ -65,14 +65,14 @@
         android:id="@+id/password1"
         android:hint="Password" />
 
-    <!--<EditText-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:inputType="textPassword"-->
-        <!--android:ems="8"-->
-        <!--android:textSize="28sp"-->
-        <!--android:id="@+id/password2"-->
-        <!--android:hint="Retype Password" />-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="8"
+        android:textSize="28sp"
+        android:id="@+id/password2"
+        android:hint="Retype Password" />
 
     <!--<TextView-->
         <!--android:layout_width="wrap_content"-->
